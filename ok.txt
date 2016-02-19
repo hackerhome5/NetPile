@@ -1,0 +1,14 @@
+man!IDON"TGIVEAFLIPPING
+		files.append(ten[1]);
+			}
+			read.close();
+			String full = files.toString();
+			OutputStream buff = new BufferedOutputStream(new FileOutputStream(temp));
+			Encrypt enc = new Encrypt();
+			byte encrypted[] = enc.encrypter(username, password, full);
+			buff.write(encrypted);
+			buff.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} CRAP
